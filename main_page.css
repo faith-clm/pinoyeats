@@ -161,6 +161,7 @@ body {
     width: 80%;
     color: #F4FF5C;
     font-weight: 800;
+    margin: 0;
 }
 
 .home-section p {
@@ -175,6 +176,9 @@ body {
 
 .home-section .home-left-side {
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 .home-section button {
@@ -802,17 +806,39 @@ footer h5 {
     }
 
     .home-section p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 100%;
     }
 
     .home-section button {
         padding: 0.7em 1.2em;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    .home-section button:active {
-        transform: scale(90%);
+    /* CSS for about */
+    .about-first-image {
+        width: 50%;
+    }
+
+    .about-section .about-left-side img {
+        width: 90%;
+        height: 360px;
+    }
+
+    .about-section .about-right-side img {
+        width: 75%;
+        object-fit: cover; 
+        display: flex;
+        margin-left: 20%;
+    }
+
+    .about-section p {
+        font-size: 1.1rem;
+        width: fit-content;
+    }
+
+    .about-section .about-left-side p {
+        margin-bottom: 3rem;
     }
 
 }
@@ -847,9 +873,14 @@ footer h5 {
         padding-bottom: 5%;
     }
 
-    .home-section h1 {
+    .home-section .home-left-side {
+        gap: 1em;
+    }
+
+
+    .home-section .home-left-side h1 {
         font-size: 3.3rem;
-        width: 95%;
+        width: 90%;
     }
 
     .home-section p {
@@ -882,31 +913,31 @@ footer h5 {
     }
 
     /* CSS for home */
-    .home-bg-color {
-        width: 101%;
-        height: 100%;
-    }
-
     .home-section {
-        margin-left: 3em;
-        margin-right: 3em;
-        padding-top: 10%;
+        margin-left: 3.2em;
+        margin-right: 3.2em;
+        padding-top: 11%;
         padding-bottom: 5%;
     }
 
-    .home-section h1 {
-        font-size: 2.35rem;
-        width: 100%;
+    .home-section .home-left-side {
+        gap: 1em;
+    }
+
+
+    .home-section .home-left-side h1 {
+        font-size: 2rem;
+        width: 90%;
     }
 
     .home-section p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         width: 100%;
     }
 
     .home-section button {
         padding: 0.7em 1.2em;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
