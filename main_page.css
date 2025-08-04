@@ -77,7 +77,6 @@ body {
 #hamburger-icon div {
     display: none;
     background-color: #F4FF5C;
-    opacity: 100%;
     width: 2.1em;
     height: 0.25em;
     margin: 6px 0;
@@ -110,17 +109,23 @@ body {
 .mobile-menu {
     display: none;
     position: absolute;
-    top: 5em;
+    top: 0;
     left: 0;
+    padding-top: 10em;
+    padding-left: 0;
     margin: 0;
     height: 100vh;
     width: 100%;
     list-style-type: none;
+    gap: 4em;
+    background-color: #001b44;
 }
 
 .mobile-menu li a {
     text-decoration: none;
     color: #F4FF5C;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 /* CSS for home */
@@ -916,6 +921,13 @@ footer h5 {
 
     #navigationBar {
         height: 2em;
+        gap: 10em;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    #navigationBar img {
+        z-index: 100;
     }
 
     /* Makes the hamburger icon appear in phone size */
