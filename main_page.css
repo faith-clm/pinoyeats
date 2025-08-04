@@ -102,19 +102,17 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-}
+} 
 
 .mobile-menu {
     display: none;
     position: absolute;
-    top: 0;
+    top: 5em;
     left: 0;
     margin: 0;
     height: 100vh;
     width: 100%;
     list-style-type: none;
-    background-image: linear-gradient(to bottom right, #001b44, #1d70ec);
-    opacity: 00%;
 }
 
 .mobile-menu li a {
