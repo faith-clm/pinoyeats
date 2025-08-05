@@ -902,6 +902,32 @@ footer h5 {
         padding: 1em 2em;
     }
 
+    /* Sinigang */
+    .sinigang {
+        width: 78%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -10em;
+    }
+
+    .sinigang div {
+        width: 72%;
+    }
+
+    .sinigang img {
+        width: 44%;
+        left: -9.5em;
+    }
+
+    .sinigang h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sinigang p {
+        font-size: 1.1rem;
+    }
 }
 
 
@@ -1016,6 +1042,35 @@ footer h5 {
 
     .adobo button {
         padding: 1em 2em;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 94%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .sinigang div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .sinigang img {
+        width: 36%;
+        left: 1.2em;
+    }
+
+    .sinigang h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sinigang p {
+        font-size: 1.1rem;
     }
 
 }
