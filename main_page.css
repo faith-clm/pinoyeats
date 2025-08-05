@@ -849,6 +849,59 @@ footer h5 {
         margin-bottom: 2rem;
     }
 
+    /* CSS For Food Section */
+    .food-section {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 1em;
+        margin-bottom: 10em;
+    }
+
+    .food-section-container {
+        gap: 2em;
+    }
+
+    .food-section h6 {
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+
+    .food-section h3 {
+        font-size: 3rem;
+    }
+
+    /* Adobo */
+    .adobo {
+        width: 78%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -10em;
+    }
+
+    .adobo div {
+        width: 72%;
+        height: fit-content;
+    }
+
+    .adobo img {
+        width: 43%;
+        right: -10em;
+    }
+
+    .adobo h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .adobo p {
+        font-size: 1.1rem;
+    }
+
+    .adobo button {
+        padding: 1em 2em;
+    }
+
 }
 
 
@@ -930,6 +983,39 @@ footer h5 {
     .about-section .about-left-side p {
         margin-bottom: 1.5rem;
     }
+
+    /* CSS For Food Section */
+        /* Adobo */
+    .adobo {
+        width: 100%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+    }
+
+    .adobo div {
+        width: 60%;
+        height: fit-content;
+    }
+
+    .adobo img {
+        width: 35%;
+        right: 1.5em;
+    }
+
+    .adobo h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .adobo p {
+        font-size: 1.1rem;
+    }
+
+    .adobo button {
+        padding: 1em 2em;
+    }
+
 }
 
 
@@ -1015,6 +1101,8 @@ footer h5 {
 }
 
 
+
+/* NEEDS TO BE FIXED */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     /* CSS for navigation bar */
