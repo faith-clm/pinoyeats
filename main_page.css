@@ -244,7 +244,7 @@ body {
 }
 
 .about-section .about-left-side img {
-    width: 80%;
+    width: 92%;
     height: 500px;
     object-fit: cover;
     border-radius: 1em;
@@ -263,7 +263,7 @@ body {
 }
 
 .about-section .about-left-side p {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 /* CSS For Food Section */
