@@ -1048,11 +1048,35 @@ footer h5 {
         font-size: 1.1rem;
     }
 
+    /* CSS for Footer */
+    footer {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    footer .footer-container {
+        gap: 10em;
+        margin-bottom: 3em;
+    }
+
+    footer .footer-links {
+        gap: 5em;
+    }
+
+    footer hr {
+        width: 85%;
+    }
+
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
+    body {
+        margin: 0;
+    }
+
     /* CSS for navigation bar */
     #navigationBar {
         gap: 1em; /* Whole navbar */
@@ -1069,7 +1093,7 @@ footer h5 {
 
     /* CSS for home */
     .home-bg-color {
-        width: 101%;
+        width: 100%;
         height: 100%;
     }
 
@@ -1317,7 +1341,30 @@ footer h5 {
         font-size: 1.1rem;
     }
 
+    /* CSS for Footer */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
 
+    footer .footer-container {
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    footer h4 {
+        font-size: 1.3em;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    footer .footer-links {
+        gap: 10em;
+    }
 }
 
 
