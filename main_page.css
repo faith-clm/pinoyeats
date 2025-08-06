@@ -904,11 +904,11 @@ footer h5 {
 
     /* Sinigang */
     .sinigang {
-        width: 78%;
+        width: 75.6%;
         padding-top: 2.2em;
         padding-right: 2.2em;
         padding-bottom: 2.2em;
-        margin-right: -10em;
+        margin-right: -9em;
     }
 
     .sinigang div {
@@ -916,7 +916,7 @@ footer h5 {
     }
 
     .sinigang img {
-        width: 44%;
+        width: 46%;
         left: -9.5em;
     }
 
@@ -928,6 +928,126 @@ footer h5 {
     .sinigang p {
         font-size: 1.1rem;
     }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 78%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -10em;
+    }
+
+    .dinakdakan div {
+        width: 72%;
+        height: fit-content;
+    }
+
+    .dinakdakan img {
+        width: 46%;
+        right: -11em;
+    }
+
+    .dinakdakan h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .dinakdakan p {
+        font-size: 1.1rem;
+    }
+
+    .dinakdakan button {
+        padding: 1em 2em;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 75.6%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -9em;
+    }
+
+    .lechon div {
+        width: 80%;
+        margin-left: 27%;
+    }
+
+    .lechon img {
+        width: 70%;
+        left: -16.5em;
+    }
+
+    .lechon h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .lechon p {
+        font-size: 1.1rem;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 78%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -10em;
+    }
+
+    .sisig div {
+        width: 72%;
+        height: fit-content;
+    }
+
+    .sisig img {
+        width: 47%;
+        right: -11em;
+    }
+
+    .sisig h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sisig p {
+        font-size: 1.1rem;
+    }
+
+    .sisig button {
+        padding: 1em 2em;
+    }
+
+    /* Laing */
+    .laing {
+        width: 75.6%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -9em;
+    }
+
+    .laing div {
+        width: 72%;
+    }
+
+    .laing img {
+        width: 46%;
+        left: -9.5em;
+    }
+
+    .laing h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .laing p {
+        font-size: 1.1rem;
+    }
+
 }
 
 
@@ -1011,7 +1131,7 @@ footer h5 {
     }
 
     /* CSS For Food Section */
-        /* Adobo */
+    /* Adobo */
     .adobo {
         width: 100%;
         padding-top: 2.2em;
@@ -1073,6 +1193,131 @@ footer h5 {
         font-size: 1.1rem;
     }
 
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 100%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: 0em;
+
+    }
+
+    .dinakdakan div {
+        width: 60%;
+        height: fit-content;
+    }
+
+    .dinakdakan img {
+        width: 35%;
+        right: 1.5em;
+    }
+
+    .dinakdakan h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .dinakdakan p {
+        font-size: 1.1rem;
+    }
+
+    .dinakdakan button {
+        padding: 1em 2em;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 94%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .lechon div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .lechon img {
+        width: 56%;
+        left: -4em;
+    }
+
+    .lechon h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .lechon p {
+        font-size: 1.1rem;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 100%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: 0em;
+
+    }
+
+    .sisig div {
+        width: 60%;
+        height: fit-content;
+    }
+
+    .sisig img {
+        width: 35%;
+        right: 1.5em;
+    }
+
+    .sisig h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sisig p {
+        font-size: 1.1rem;
+    }
+
+    .sisig button {
+        padding: 1em 2em;
+    }
+
+    /* Laing */
+    .laing {
+        width: 94%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .laing div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .laing img {
+        width: 36%;
+        left: 1.2em;
+    }
+
+    .laing h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .laing p {
+        font-size: 1.1rem;
+    }
+
+
 }
 
 
@@ -1127,7 +1372,7 @@ footer h5 {
     }
 
     .about-section div h3 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         margin: 0;
     }
 
@@ -1154,6 +1399,184 @@ footer h5 {
 
     .about-section .about-left-side p {
         margin-bottom: 1.5rem;
+    }
+
+    /* CSS For Food Section */
+    .food-section h6 {
+        font-size: 0.6rem;
+    }
+
+    .food-section h3 {
+        font-size: 2.3rem;
+    }
+
+    /* Adobo */
+    .adobo {
+        width: 100%;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-bottom: 2em;
+    }
+
+    .adobo img {
+        width: 35%;
+        right: 1em;
+    }
+
+    .adobo h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .adobo p {
+        font-size: 1rem;
+    }
+
+    .adobo button {
+        padding: 1em 2em;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 92%;
+        padding-top: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .sinigang div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .sinigang img {
+        width: 38%;
+        left: 1em;
+    }
+
+    .sinigang h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .sinigang p {
+        font-size: 1rem;
+    }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 100%;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-bottom: 2em;
+    }
+
+    .dinakdakan div {
+        width: 59%;
+    }
+
+    .dinakdakan img {
+        width: 35%;
+        right: 1.2em;
+    }
+
+    .dinakdakan h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .dinakdakan p {
+        font-size: 1rem;
+    }
+
+    .dinakdakan button {
+        padding: 1em 2em;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 92%;
+        padding-top: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .lechon div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .lechon img {
+        width: 58%;
+        left: -3em;
+    }
+
+    .lechon h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .lechon p {
+        font-size: 1rem;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 100%;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-bottom: 2em;
+    }
+
+    .sisig img {
+        width: 35%;
+        right: 1em;
+    }
+
+    .sisig h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .sisig p {
+        font-size: 1rem;
+    }
+
+    .sisig button {
+        padding: 1em 2em;
+    }
+
+    /* Laing */
+    .laing {
+        width: 92%;
+        padding-top: 2em;
+        padding-right: 2em;
+        padding-bottom: 2em;
+        margin-right: 0em;
+        margin-left: 0;
+    }
+
+    .laing div {
+        width: 60%;
+        margin-left: 40%;
+    }
+
+    .laing img {
+        width: 38%;
+        left: 1em;
+    }
+
+    .laing h5 {
+        font-size: 1.8rem;
+        margin-bottom: 0em;
+    }
+
+    .laing p {
+        font-size: 1rem;
     }
 }
 
