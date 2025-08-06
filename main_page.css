@@ -1354,16 +1354,35 @@ footer h5 {
     }
 
     footer h4 {
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
+    footer h3 {
+        font-size: 1em;
+    }
+    
     footer ul {
         list-style-type: none;
         padding: 0;
     }
+    
+    footer ul li {
+        font-size: 0.8em;
+    }
 
     footer .footer-links {
-        gap: 10em;
+        gap: 5em;
+    }
+
+    .footer-container .logo-slogan-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+    }
+
+    .footer-container .logo-slogan-container img {
+        width: 73%;
     }
 }
 
@@ -1625,6 +1644,47 @@ footer h5 {
     .laing p {
         font-size: 1rem;
     }
+
+    /* CSS for Footer */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    footer .footer-container {
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    footer h3 {
+        font-size: 1em;
+    }
+
+    footer h4 {
+        font-size: 1em;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    footer ul li {
+        font-size: 0.8em;
+    }
+
+    footer .footer-links {
+        gap: 9em;
+    }
+
+    .footer-container .logo-slogan-container {
+        align-items: center;
+    }
+
+    .footer-container .logo-slogan-container img {
+        width: 70%;
+    }
 }
 
 
@@ -1690,5 +1750,30 @@ footer h5 {
     .home-section button {
         padding: 0.7em 1.2em;
         font-size: 0.7rem;
+    }
+
+    /* CSS for Footer */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    footer .footer-container {
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    footer h4 {
+        font-size: 1.3em;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    footer .footer-links {
+        gap: 5em;
     }
 }
