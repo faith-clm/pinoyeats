@@ -48,6 +48,11 @@
 
 /* Recipes section */
 
+.ingredients-lists {
+    display: none;
+}
+
+
 /* Adobo */
 .recipes-adobo {
     background-color: #E33535;
@@ -549,6 +554,7 @@
     .recipes-sisig .ingredients-lists {
         left: 18em;
         top: 12em;
+        opacity: 86%;
     }
 
     /* Sinigang */
