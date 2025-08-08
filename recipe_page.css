@@ -389,6 +389,204 @@
         width: 40%;
     }
 
+    /* Recipes section */
+
+    /* Adobo */
+    .recipes-adobo {
+        gap: 15%;
+    }
+
+    .recipes-adobo div h5 {
+        font-size: 2.2rem;
+    }
+
+    .recipes-adobo div h6 {
+        font-size: 1.2rem;
+    }
+
+    .recipes-adobo .ingredients-lists {
+        left: 18em;
+        top: 9em;
+        opacity: 86%;
+    }
+
+    .recipes-adobo .ingredients-lists p {
+        font-size: 1rem;
+    }
+
+    .ingredients-lists ul li {
+        font-size: 0.8rem;
+    }
+
+    /* Sinigang */
+    .recipes-sinigang {
+        gap: 10%;
+    }
+
+    .recipes-sinigang img {
+        width: 27%;
+    }
+
+    .recipes-sinigang div h5 {
+        font-size: 2.2rem;
+    }
+
+    .recipes-sinigang div h6 {
+        font-size: 1.2rem;
+        margin: 1em 0em;
+    }
+
+    .recipes-sinigang ol {
+        padding-left: 1em;
+    }
+
+    .recipes-sinigang .ingredients-lists {
+        right: 15em;
+        top: 6em;
+        opacity: 86%;
+    }
+
+    .recipes-sinigang .ingredients-lists p {
+        font-size: 1rem;
+    }
+
+    .ingredients-lists ul li {
+        font-size: 0.8rem;
+    }
+
+    /* Dinakdakan */
+    .recipes-dinakdakan {
+        gap: 15%;
+    }
+
+    .recipes-dinakdakan div h5 {
+        font-size: 2.2rem;
+    }
+
+    .recipes-dinakdakan div h6 {
+        font-size: 1.2rem;
+    }
+
+    .recipes-dinakdakan .ingredients-lists {
+        left: 18em;
+        top: 4em;
+        opacity: 86%;
+    }
+
+    .recipes-dinakdakan .ingredients-lists p {
+        font-size: 1rem;
+    }
+
+    .ingredients-lists ul li {
+        font-size: 0.8rem;
+    }
+
+    /* Lechon */
+    .recipes-lechon {
+        gap: 0%;
+        padding: 4em;
+    }
+
+    .recipes-lechon div:first-child {
+        width: fit-content;
+    }
+
+    .recipes-lechon img {
+        width: 30%;
+    }
+
+    .recipes-lechon div h5 {
+        font-size: 2.2rem;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .recipes-lechon div h6 {
+        font-size: 1.2rem;
+        width: fit-content;
+    }
+
+    .recipes-lechon .ingredients-lists {
+        right: 20em;
+        top: 9em;
+    }
+
+    .recipes-lechon .ingredients-lists p {
+        font-size: 1rem;
+    }
+
+    .recipes-lechon .ingredients-lists ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .recipes-lechon ol {
+        width: 80%;
+    }
+
+    /* Sisig */
+    .recipes-sisig {
+        gap: 10%;
+    }
+
+    .recipes-sisig img {
+        width: 30%;
+    }
+
+    .recipes-sisig .sisig-container {
+        width: 53%;
+    }
+
+    .recipes-sisig div h5 {
+        font-size: 2.2rem;
+    }
+
+    .recipes-sisig div h6 {
+        font-size: 1.2rem;
+    }
+
+    .recipes-sisig .ingredients-lists {
+        left: 18em;
+        top: 12em;
+    }
+
+    /* Sinigang */
+    .recipes-laing {
+        gap: 10%;
+    }
+
+    .recipes-laing img {
+        width: 27%;
+    }
+
+    .recipes-laing div h5 {
+        font-size: 2.2rem;
+    }
+
+    .recipes-laing div h6 {
+        font-size: 1.2rem;
+        margin: 1em 0em;
+    }
+
+    .recipes-laing ol {
+        padding-left: 1em;
+    }
+
+    .recipes-laing .ingredients-lists {
+        right: 18em;
+        top: 6em;
+        opacity: 86%;
+    }
+
+    .recipes-laing .ingredients-lists p {
+        font-size: 1rem;
+    }
+
+    .ingredients-lists ul li {
+        font-size: 0.8rem;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -418,6 +616,9 @@
         left: 12%;
         top: 8%;
     }
+
+    /* Recipes section */
+
 }
 
 
