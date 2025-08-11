@@ -394,9 +394,9 @@ body {
 }
 
 .sinigang div {
-    width: 67%;
+    width: 65%;
     height: fit-content;
-    margin-left: 27%;
+    margin-left: 29%;
 }
 
 .sinigang img {
@@ -529,15 +529,15 @@ body {
 }
 
 .lechon div {
-    width: 69%;
+    width: 63%;
     height: fit-content;
-    margin-left: 24%;
+    margin-left: 34%;
 }
 
 .lechon img {
-    width: 50%;
+    width: 40%;
     position: absolute;
-    left: -16em;
+    left: -5.5em;
     animation-name: spin; 
     animation-duration: 8000ms; /* How fast the animation will be */
     animation-iteration-count: infinite; /* Number of iteration the animation will perform */
@@ -976,8 +976,8 @@ footer h5 {
     }
 
     .lechon img {
-        width: 70%;
-        left: -16.5em;
+        width: 45%;
+        left: -10em;
     }
 
     .lechon h5 {
@@ -1266,8 +1266,8 @@ footer h5 {
     }
 
     .lechon img {
-        width: 56%;
-        left: -4em;
+        width: 36%;
+        left: 1.3em;
     }
 
     .lechon h5 {
@@ -1577,8 +1577,8 @@ footer h5 {
     }
 
     .lechon img {
-        width: 58%;
-        left: -3em;
+        width: 38%;
+        left: 0.8em;
     }
 
     .lechon h5 {
