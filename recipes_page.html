@@ -10,22 +10,42 @@
   </head>
   <body>
     <div class="recipe-bg-color" id="home">
-      <nav id="navigationBar">
+            <header id="navigationBar">
         <img
           class="pinoy-eats-logo"
           src="Images/logo.png"
           alt="Pinoy Eats Logo"
         />
-        <ul class="navigation-list">
-          <li><a href="index.html#home">Home</a></li>
-          <li><a href="index.html#about">About Philippines</a></li>
-          <li><a href="index.html#foods">Foods</a></li>
-          <li><a href="">Recipes</a></li>
-          <li><a href="index.html#footer">Contacts</a></li>
-        </ul>
-      </nav>
 
-      <header class="recipe-home-section">
+        <!-- Navbar for desktop and tablet size -->
+        <nav>
+          <ul class="navigation-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Philippines</a></li>
+            <li><a href="#foods">Foods</a></li>
+            <li><a href="/recipes_page.html">Recipes</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <!-- Navbar for phone size -->
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <!-- Hamburger menu -->
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <!-- Navigations for hamburger menu -->
+          <ul class="mobile-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Philippines</a></li>
+            <li><a href="#foods">Foods</a></li>
+            <li><a href="/recipes_page.html">Recipes</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <section class="recipe-home-section">
         <h1>From Our Kitchen to Yours</h1>
         <p>
           Try this recipe in your own home and bring a piece of Filipino
@@ -35,7 +55,7 @@
           src="Images/dinner cooking Sticker by Food Network.gif"
           alt="Cooking gif"
         />
-      </header>
+      </section>
     </div>
 
     <main>
