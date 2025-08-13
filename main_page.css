@@ -529,15 +529,15 @@ body {
 }
 
 .lechon div {
-    width: 63%;
+    width: 65%;
     height: fit-content;
-    margin-left: 34%;
+    margin-left: 31%;
 }
 
 .lechon img {
-    width: 40%;
+    width: 37%;
     position: absolute;
-    left: -5.5em;
+    left: -6em;
     animation-name: spin; 
     animation-duration: 8000ms; /* How fast the animation will be */
     animation-iteration-count: infinite; /* Number of iteration the animation will perform */
@@ -597,14 +597,14 @@ body {
 }
 
 .sisig div {
-    width: 65%;
+    width: 69%;
     height: fit-content;
 }
 
 .sisig img {
-    width: 40%;
+    width: 37%;
     position: absolute;
-    right: -7em;
+    right: -8em;
     animation-name: spin; 
     animation-duration: 8000ms; /* How fast the animation will be */
     animation-iteration-count: infinite; /* Number of iteration the animation will perform */
@@ -1070,6 +1070,17 @@ footer h5 {
 
 }
 
+@media only screen and (max-width: 1100px) {
+    /* CSS for Footer */
+    footer .footer-container {
+        gap: 5em;
+    }
+
+    footer .footer-links {
+        gap: 3em;
+    }
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
@@ -1405,31 +1416,114 @@ footer h5 {
     }
 
     /* CSS for home */
-    .home-section {
-        margin-left: 3.2em;
-        margin-right: 3.2em;
-        padding-top: 11%;
+    /* .home-section {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3em;
+        margin-right: 3em;
+        padding-top: 6%;
         padding-bottom: 5%;
     }
 
+    .home-section .home-first-image {
+        width: 92%;
+        border-radius: 1em;
+    }
+
+    .home-section .home-second-image {
+        width: 100%;
+        border-radius: 1em;
+    }
+
+    .home-section h1 {
+        font-size: 4.5rem;
+        width: 80%;
+        color: #F4FF5C;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .home-section p {
+        font-size: 1.3rem;
+        width: 94%;
+        color: #F4FF5C;
+    }
+
+    .home-section .home-right-side {
+        width: 700px;
+    }
+
     .home-section .home-left-side {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .home-section button {
+        background-color: #E33535;
+        color: white;
+        border: none;
+        box-sizing: content-box;
+        padding: 0.9em 2em;
+        border-radius: 2em;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .home-section button:active {
+        transform: scale(90%);
+    } */
+
+
+
+
+
+    .home-section {
+        flex-direction: column;
+        margin-left: 3.1em;
+        margin-right: 3.1em;
+        padding-top: 12%;
+        padding-bottom: 7%;
+        gap: 0.8em;
+    }
+
+    .home-section .home-first-image {
+        width: 42em;
+        height: 18em;
+        object-fit: cover;
+    }
+
+    .home-section .home-second-image {
+        width: 42em;
+        height: 18em;
+        object-fit: cover;
+    }
+
+    .home-section .home-left-side {
+        width: fit-content;
         gap: 1em;
+    }
+
+    .home-section .home-right-side {
+        width: fit-content;
     }
 
 
     .home-section .home-left-side h1 {
-        font-size: 2rem;
-        width: 90%;
+        font-size: 3.4rem;
+        width: 100%;
     }
 
     .home-section p {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         width: 100%;
     }
 
     .home-section button {
         padding: 0.7em 1.2em;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
 
     /* CSS for about */
