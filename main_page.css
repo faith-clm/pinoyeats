@@ -1729,7 +1729,7 @@ footer h5 {
 
     #navigationBar {
         height: 2em;
-        gap: 10em;
+        gap: 18em;
         margin: 0;
         padding-left: 0;
     }
@@ -1792,29 +1792,13 @@ footer h5 {
 @media only screen and (max-width: 450px) {
     /* CSS for navigation bar */
     /* Makes the whole hamburger menu appear in phone size */
-    header nav {
-        display: none;
-    }
-
     #navigationBar {
-        height: 2em;
-        gap: 10em;
-        margin: 0;
-        padding-left: 0;
+        gap: 12em;
     }
-
-    #navigationBar img {
-        z-index: 100;
-    }
-
-    /* Makes the hamburger icon appear in phone size */
-    #hamburger-icon {
-        display: block;
-    }
-
+    
     /* Makes the lines of hamburger icon appear in phone size*/
     #hamburger-icon div {
-        display: block;
+        z-index: 99;
     }
 
     .pinoy-eats-logo {
@@ -1849,20 +1833,56 @@ footer h5 {
     }
 
     footer .footer-container {
-        gap: 1em;
-        margin-bottom: 1em;
+        gap: 0em;
+        margin-bottom: 0.8em;
     }
 
     footer h4 {
-        font-size: 1.3em;
-    }
-
-    footer ul {
-        list-style-type: none;
-        padding: 0;
+        font-size: 1.1em;
     }
 
     footer .footer-links {
-        gap: 5em;
+        gap: 2.5em;
+    }
+}
+
+
+
+/* Smaller devices (Small phones, 350px and below) */
+@media only screen and (max-width: 350px) {
+    /* CSS for navigation bar */
+    /* Makes the whole hamburger menu appear in phone size */
+    #navigationBar {
+        gap: 7em;
+    }
+    
+    /* Makes the lines of hamburger icon appear in phone size*/
+    #hamburger-icon div {
+        z-index: 99;
+    }
+
+    .pinoy-eats-logo {
+        width: 105px;
+        height: 15px;
+    }
+
+    /* CSS for Footer */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
+        width: 100%;
+    }
+
+    footer .footer-container {
+        gap: 0em;
+        margin-bottom: 0.8em;
+    }
+
+    footer h4 {
+        font-size: 1.1em;
+    }
+
+    footer .footer-links {
+        gap: 2.5em;
     }
 }
