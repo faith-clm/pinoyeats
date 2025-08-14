@@ -1416,88 +1416,24 @@ footer h5 {
     }
 
     /* CSS for home */
-    /* .home-section {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-left: 3em;
-        margin-right: 3em;
-        padding-top: 6%;
-        padding-bottom: 5%;
-    }
-
-    .home-section .home-first-image {
-        width: 92%;
-        border-radius: 1em;
-    }
-
-    .home-section .home-second-image {
-        width: 100%;
-        border-radius: 1em;
-    }
-
-    .home-section h1 {
-        font-size: 4.5rem;
-        width: 80%;
-        color: #F4FF5C;
-        font-weight: 800;
-        margin: 0;
-    }
-
-    .home-section p {
-        font-size: 1.3rem;
-        width: 94%;
-        color: #F4FF5C;
-    }
-
-    .home-section .home-right-side {
-        width: 700px;
-    }
-
-    .home-section .home-left-side {
-        width: 800px;
-        display: flex;
-        flex-direction: column;
-        gap: 2em;
-    }
-
-    .home-section button {
-        background-color: #E33535;
-        color: white;
-        border: none;
-        box-sizing: content-box;
-        padding: 0.9em 2em;
-        border-radius: 2em;
-        font-size: 1rem;
-        cursor: pointer;
-    }
-
-    .home-section button:active {
-        transform: scale(90%);
-    } */
-
-
-
-
-
     .home-section {
         flex-direction: column;
         margin-left: 3.1em;
         margin-right: 3.1em;
-        padding-top: 10%;
+        padding-top: 12%;
         padding-bottom: 5%;
         gap: 0.8em;
     }
 
     .home-section .home-first-image {
-        width: 42em;
-        height: 15em;
+        width: 87.5vw;
+        height: 26.5vh;
         object-fit: cover;
     }
 
     .home-section .home-second-image {
-        width: 42em;
-        height: 15em;
+        width: 87.5vw;
+        height: 26.5vh;
         object-fit: cover;
     }
 
@@ -1783,7 +1719,6 @@ footer h5 {
 
 
 
-/* NEEDS TO BE FIXED */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
     /* CSS for navigation bar */
@@ -1819,32 +1754,92 @@ footer h5 {
     }
 
     /* CSS for home */
-    .home-bg-color {
-        width: 100%;
-        height: 100%;
-    }
-
     .home-section {
-        margin-left: 3em;
-        margin-right: 3em;
-        padding-top: 10%;
-        padding-bottom: 5%;
+        padding-top: 13%;
+        padding-bottom: 6%;
     }
 
-    .home-section h1 {
-        font-size: 2.35rem;
+
+    /* CSS for Footer */
+    footer {
+        padding-top: 4%;
+        padding-bottom: 2%;
         width: 100%;
+    }
+
+    footer .footer-container {
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    footer h4 {
+        font-size: 1.3em;
+    }
+
+    footer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    footer .footer-links {
+        gap: 5em;
+    }
+}
+
+
+
+/* Smaller devices (Medium phones, 450px and below) */
+@media only screen and (max-width: 450px) {
+    /* CSS for navigation bar */
+    /* Makes the whole hamburger menu appear in phone size */
+    header nav {
+        display: none;
+    }
+
+    #navigationBar {
+        height: 2em;
+        gap: 10em;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    #navigationBar img {
+        z-index: 100;
+    }
+
+    /* Makes the hamburger icon appear in phone size */
+    #hamburger-icon {
+        display: block;
+    }
+
+    /* Makes the lines of hamburger icon appear in phone size*/
+    #hamburger-icon div {
+        display: block;
+    }
+
+    .pinoy-eats-logo {
+        width: 110px;
+        height: 17px;
+    }
+
+    /* CSS for home */
+    .home-section {
+        padding-top: 24%;
+        padding-bottom: 14%;
+    }
+
+    .home-section .home-left-side h1 {
+        font-size: 2rem;
     }
 
     .home-section p {
         font-size: 0.8rem;
-        width: 100%;
     }
 
     .home-section button {
-        padding: 0.7em 1.2em;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
+
 
     /* CSS for Footer */
     footer {
