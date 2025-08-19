@@ -790,55 +790,76 @@ footer h5 {
         padding-top: 6%;
         padding-bottom: 5%;
     }
-
-    .home-section .home-first-image {
-        width: 92%;
-        border-radius: 1em;
-    }
-
-    .home-section .home-second-image {
-        width: 100%;
-        border-radius: 1em;
-    }
-
+ 
     .home-section h1 {
         font-size: 4.5rem;
         width: 90%;
-        color: #6c6d5d;
-        font-weight: 800;
-        margin: 0;
     }
 
-    .home-section p {
-        font-size: 1.3rem;
-        width: 94%;
-        color: #F4FF5C;
+    /* CSS for about section */
+    .about-section {
+        margin-left: 5em;
+        margin-right: 5em;
     }
 
-    .home-section .home-right-side {
-        width: 700px;
+    .about-first-image {
+        width: 50%;
     }
 
-    .home-section .home-left-side {
-        width: 800px;
+    .about-section h6 {
+        font-size: 0.8rem;
+    }
+
+    .about-section div h3 {
+        font-size: 3.5rem;
+    }
+
+    .about-section .about-left-side img {
+        width: 92%;
+        height: 50vh;
+    }
+
+    .about-section .about-right-side img {
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    /* CSS For Food Section */
+    .food-section {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .food-section-container {
         display: flex;
         flex-direction: column;
-        gap: 2em;
+        justify-content: center;
+        align-items: center;
+        gap: 7em;
     }
 
-    .home-section button {
-        background-color: #E33535;
-        color: white;
-        border: none;
-        box-sizing: content-box;
-        padding: 0.9em 2em;
-        border-radius: 2em;
+    .food-section h6 {
+        font-weight: bold;
         font-size: 1rem;
-        cursor: pointer;
+        border: solid 1px #A51E2D;
+        color: #A51E2D;
+        box-sizing: content-box;
+        padding: 0.7em 0.7em;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.7em;
     }
 
-    .home-section button:active {
-        transform: scale(90%);
+    .food-section h6:hover {
+        color: white;
+        background-color: #A51E2D;
+    }
+
+    .food-section h3 {
+        font-size: 4rem;
+        color: #A51E2D;
+        margin: 0 0 1em 0;
     }
 
 }
