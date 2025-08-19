@@ -365,6 +365,32 @@
 }
 
 
+@media only screen and (max-width: 1600px) {
+    .recipe-home-section {
+        margin-left: 5em;
+        margin-right: 5em;
+        padding-top: 4%;
+        padding-bottom: 7%;
+    }
+
+    .recipe-home-section h1 {
+        font-size: 5rem;
+        padding-left: 35%;
+    }
+
+    .recipe-home-section p {
+        font-size: 1.3rem;
+        width: 35%;
+        padding-left: 60%;
+    }
+
+    .recipe-home-section img {
+        left: 8%;
+        top: 8%;
+        width: 42%;
+    }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
     /* Header section for recipes page */
