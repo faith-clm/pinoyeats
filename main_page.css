@@ -844,8 +844,12 @@ footer h5 {
         margin-left: -4em;
     }
 
+    .adobo div {
+        width: 68%;
+    }
+
     .adobo img {
-        width: 38%;
+        width: 39%;
     }
 
     /* Sinigang */
@@ -860,7 +864,7 @@ footer h5 {
     }
 
     .sinigang img {
-        width: 40%;
+        width: 41%;
     }
 
     /* Dinakdakan */
@@ -895,17 +899,17 @@ footer h5 {
     }
 
     .sisig img {
-        width: 40%;
+        width: 41%;
     }
 
     /* Laing */
     .laing {
-        width: 82%;
+        width: 83%;
         margin-left: 6em;
     }
 
     .laing div {
-        width: 66%;
+        width: 67%;
         margin-left: 30%;
     }
 
