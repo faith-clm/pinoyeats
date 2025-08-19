@@ -838,6 +838,80 @@ footer h5 {
         font-size: 3.5rem;
     }
 
+    /* Adobo */
+    .adobo {
+        width: 80%;
+        margin-left: -4em;
+    }
+
+    .adobo img {
+        width: 38%;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 82%;
+        margin-left: 7em;
+    }
+
+    .sinigang div {
+        width: 66%;
+        margin-left: 31%;
+    }
+
+    .sinigang img {
+        width: 40%;
+    }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 80%;
+        margin-left: -4em;
+    }
+
+    .dinakdakan img {
+        width: 40%;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 82%;
+        margin-left: 6em;
+    }
+
+    .lechon div {
+        width: 66%;
+        margin-left: 31%;
+    }
+
+    .lechon img {
+        width: 38%;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 80%;
+        margin-left: -5em;
+    }
+
+    .sisig img {
+        width: 40%;
+    }
+
+    /* Laing */
+    .laing {
+        width: 82%;
+        margin-left: 6em;
+    }
+
+    .laing div {
+        width: 66%;
+        margin-left: 30%;
+    }
+
+    .laing img {
+        width: 40%;
+    }
 }
 
 
