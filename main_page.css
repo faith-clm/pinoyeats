@@ -771,6 +771,77 @@ footer h5 {
 }
 
 
+@media only screen and (max-width: 1500px) {
+    /* CSS for navigation bar */
+    #navigationBar {
+        gap: 25em; /* Whole navbar */
+    }
+
+    .navigation-list {
+        gap: 4em; /* Just the navbar options to the right */
+    }
+
+    /* CSS for home */
+    .home-section {
+        margin-left: 5em;
+        margin-right: 5em;
+        padding-top: 6%;
+        padding-bottom: 5%;
+    }
+
+    .home-section .home-first-image {
+        width: 92%;
+        border-radius: 1em;
+    }
+
+    .home-section .home-second-image {
+        width: 100%;
+        border-radius: 1em;
+    }
+
+    .home-section h1 {
+        font-size: 4.5rem;
+        width: 90%;
+        color: #F4FF5C;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .home-section p {
+        font-size: 1.3rem;
+        width: 94%;
+        color: #F4FF5C;
+    }
+
+    .home-section .home-right-side {
+        width: 700px;
+    }
+
+    .home-section .home-left-side {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .home-section button {
+        background-color: #E33535;
+        color: white;
+        border: none;
+        box-sizing: content-box;
+        padding: 0.9em 2em;
+        border-radius: 2em;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .home-section button:active {
+        transform: scale(90%);
+    }
+
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) {
     /* CSS for navigation bar */
