@@ -830,36 +830,12 @@ footer h5 {
         margin-right: 5em;
     }
 
-    .food-section-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 7em;
-    }
-
     .food-section h6 {
-        font-weight: bold;
-        font-size: 1rem;
-        border: solid 1px #A51E2D;
-        color: #A51E2D;
-        box-sizing: content-box;
-        padding: 0.7em 0.7em;
-        width: fit-content;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0.7em;
-    }
-
-    .food-section h6:hover {
-        color: white;
-        background-color: #A51E2D;
+        font-size: 0.8rem;
     }
 
     .food-section h3 {
-        font-size: 4rem;
-        color: #A51E2D;
-        margin: 0 0 1em 0;
+        font-size: 3.5rem;
     }
 
 }
