@@ -654,13 +654,6 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 992px) {
     /* Header section for recipes page */
-    .recipe-home-section {
-        margin-left: 5em;
-        margin-right: 5em;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-
     .recipe-home-section h1 {
         font-size: 3rem;
         width: 60%;
@@ -692,6 +685,7 @@
         margin-right: 5em;
         padding-top: 8%;
         padding-bottom: 5%;
+        gap: 4em;
     }
 
     .recipe-home-section h1 {
@@ -709,7 +703,7 @@
     .recipe-home-section img {
         width: 50%;
         left: 7%;
-        top: 16%;
+        top: 20%;
     }
 
 
@@ -909,10 +903,172 @@
 
 }
 
-
-
 /* NEEDS TO BE FIXED */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
+    /* Header section for recipes page */
+    .recipe-home-section {
+        margin-left: 4em;
+        margin-right: 4em;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        gap: 5em;
+    }
 
+    .recipe-home-section h1 {
+        font-size: 3.2rem;
+        width: 70%;
+        padding-left: 40%;
+    }
+
+    .recipe-home-section p {
+        font-size: 0.9rem;
+        width: 60%;
+        padding-left: 48%;
+    }
+
+    .recipe-home-section img {
+        width: 52%;
+        top: 20%;
+    }
+}
+
+/* Smaller devices (Medium phones, 450px and below) */
+@media only screen and (max-width: 450px) {
+        /* Header section for recipes page */
+    .recipe-home-section {
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-top: 8%;
+        padding-bottom: 5%;
+        gap: 16em;
+    }
+
+    .recipe-home-section h1 {
+        font-size: 3rem;
+        width: 100%;
+        padding-left: 0%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .recipe-home-section p {
+        font-size: 0.9rem;
+        width: 80%;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .recipe-home-section img {
+        width: 80%;
+        top: 28%;
+        left: 10%;
+    }
+
+    /* Recipes section */
+    /* Adobo */
+    .recipes-adobo img {
+        width: 54%;
+    }
+
+    /* Sinigang */
+    .recipes-sinigang img {
+        width: 54%;
+    }
+
+    /* Dinakdakan */
+    .recipes-dinakdakan img {
+        width: 54%;
+    }
+
+    /* Lechon */
+    .recipes-lechon img {
+        width: 54%;
+    }
+
+    /* Sisig */
+    .recipes-sisig img {
+        width: 55%;
+    }
+
+    /* Laing */
+    .recipes-laing img {
+        width: 57%;
+    }
+}
+
+/* Smaller devices (Small phones, 350px and below) */
+@media only screen and (max-width: 350px) {
+    /* Header section for recipes page */
+    .recipe-home-section {
+        padding-top: 14%;
+        gap: 12em;
+    }
+
+    .recipe-home-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .recipe-home-section img {
+        width: 80%;
+        top: 25%;
+    }
+
+    /* Recipes section */
+    /* Adobo */
+    .recipes-adobo {
+        padding: 1.5em 1.5em 1em 1.5em;
+    }
+
+    .recipes-adobo img {
+        width: 59%;
+    }
+
+    /* Sinigang */
+    .recipes-sinigang {
+        padding: 1.5em 1.5em 1em 1.5em;
+    } 
+
+    .recipes-sinigang img {
+        width: 59%;
+    }
+
+    /* Dinakdakan */
+    .recipes-dinakdakan {
+        padding: 1.5em 1.5em 1em 1.5em;
+    } 
+
+    .recipes-dinakdakan img {
+        width: 59%;
+    }
+
+    /* Lechon */
+    .recipes-lechon {
+        padding: 1.5em 1.5em 1em 1.5em;
+    } 
+
+    .recipes-lechon img {
+        width: 59%;
+    }
+
+    /* Sisig */
+    .recipes-sisig {
+        padding: 1.5em 1.5em 1em 1.5em;
+    } 
+
+    .recipes-sisig img {
+        width: 59%;
+    }
+
+    /* Laing */
+    .recipes-laing {
+        padding: 1.5em 1.5em 1em 1.5em;
+    } 
+
+    .recipes-laing img {
+        width: 63%;
+    }
 }
