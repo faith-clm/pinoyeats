@@ -1056,7 +1056,7 @@ footer h5 {
         padding-top: 2.2em;
         padding-right: 2.2em;
         padding-bottom: 2.2em;
-        margin-right: -9em;
+        margin-right: -2em;
     }
 
     .sinigang div {
@@ -1115,7 +1115,7 @@ footer h5 {
         padding-top: 2.2em;
         padding-right: 2.2em;
         padding-bottom: 2.2em;
-        margin-right: -9em;
+        margin-right: -2.2em;
     }
 
     .lechon div {
@@ -1175,7 +1175,7 @@ footer h5 {
         padding-top: 2.2em;
         padding-right: 2.2em;
         padding-bottom: 2.2em;
-        margin-right: -9em;
+        margin-right: -2em;
     }
 
     .laing div {
@@ -1219,6 +1219,179 @@ footer h5 {
 }
 
 @media only screen and (max-width: 1100px) {
+    /* CSS for food section */
+    .food-section {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 1em;
+        margin-bottom: 6em;
+    }
+
+    /* Adobo */
+    .adobo {
+        width: 79%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -9em;
+    }
+
+    .adobo div {
+        width: 76%;
+    }
+
+    .adobo img {
+        width: 43%;
+        right: -9em;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 75.6%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -2em;
+    }
+
+    .sinigang div {
+        width: 72%;
+    }
+
+    .sinigang img {
+        width: 46%;
+        left: -9em;
+    }
+
+    .sinigang h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sinigang p {
+        font-size: 1.1rem;
+    }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 79%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -9em;
+    }
+
+    .dinakdakan div {
+        width: 72%;
+        height: fit-content;
+    }
+
+    .dinakdakan img {
+        width: 46%;
+        right: -9em;
+    }
+
+    .dinakdakan h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .dinakdakan p {
+        font-size: 1.1rem;
+    }
+
+    .dinakdakan button {
+        padding: 1em 2em;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 75.6%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -2.2em;
+    }
+
+    .lechon div {
+        width: 80%;
+        margin-left: 27%;
+    }
+
+    .lechon img {
+        width: 45%;
+        left: -9em;
+    }
+
+    .lechon h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .lechon p {
+        font-size: 1.1rem;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 78%;
+        padding-top: 2.2em;
+        padding-left: 2.2em;
+        padding-bottom: 2.2em;
+        margin-left: -9em;
+    }
+
+    .sisig div {
+        width: 72%;
+        height: fit-content;
+    }
+
+    .sisig img {
+        width: 47%;
+        right: -9em;
+    }
+
+    .sisig h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .sisig p {
+        font-size: 1.1rem;
+    }
+
+    .sisig button {
+        padding: 1em 2em;
+    }
+
+    /* Laing */
+    .laing {
+        width: 75.6%;
+        padding-top: 2.2em;
+        padding-right: 2.2em;
+        padding-bottom: 2.2em;
+        margin-right: -2em;
+    }
+
+    .laing div {
+        width: 72%;
+    }
+
+    .laing img {
+        width: 46%;
+        left: -9em;
+    }
+
+    .laing h5 {
+        font-size: 2.2rem;
+        margin-bottom: 0em;
+    }
+
+    .laing p {
+        font-size: 1.1rem;
+    }
+
+
     /* CSS for Footer */
     footer .footer-container {
         gap: 5em;
@@ -1314,6 +1487,12 @@ footer h5 {
     }
 
     /* CSS For Food Section */
+    .food-section {
+        margin-left: 6.5em;
+        margin-right: 6.5em;
+        margin-bottom: 5em;
+    }
+    
     /* Adobo */
     .adobo {
         width: 100%;
