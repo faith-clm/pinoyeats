@@ -776,7 +776,8 @@ footer h5 {
 @media only screen and (max-width: 1600px) {
     /* CSS for navigation bar */
     #navigationBar {
-        gap: 25em; /* Whole navbar */
+        gap: 12em; /* Whole navbar */
+        padding-bottom: 2.2%;
     }
 
     .navigation-list {
@@ -787,12 +788,12 @@ footer h5 {
     .home-section {
         margin-left: 5em;
         margin-right: 5em;
-        padding-top: 6%;
+        padding-top: 7%;
         padding-bottom: 5%;
     }
  
     .home-section h1 {
-        font-size: 4.5rem;
+        font-size: 3.8rem;
         width: 90%;
     }
 
@@ -2319,7 +2320,7 @@ footer h5 {
     /* CSS for navigation bar */
     /* Makes the whole hamburger menu appear in phone size */
     #navigationBar {
-        gap: 12em;
+        gap: 8.5em;
     }
     
     /* Makes the lines of hamburger icon appear in phone size*/
@@ -2379,7 +2380,7 @@ footer h5 {
     /* CSS for navigation bar */
     /* Makes the whole hamburger menu appear in phone size */
     #navigationBar {
-        gap: 7em;
+        gap: 5.5em;
     }
     
     /* Makes the lines of hamburger icon appear in phone size*/
