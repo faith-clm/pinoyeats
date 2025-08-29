@@ -1651,6 +1651,12 @@ footer h5 {
     }
 
     /* CSS For Food Section */
+    .food-section {
+        margin-left: 4em;
+        margin-right: 4em;
+        margin-bottom: 4em;
+    }
+
     .food-section h6 {
         font-size: 0.6rem;
     }
