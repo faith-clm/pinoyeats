@@ -2129,6 +2129,7 @@ footer h5 {
         width: 92%;
         padding: 15em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .adobo div {
@@ -2159,6 +2160,7 @@ footer h5 {
         width: 92%;
         padding: 16em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .sinigang div {
@@ -2186,6 +2188,7 @@ footer h5 {
         width: 92%;
         padding: 16em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .dinakdakan div {
@@ -2213,6 +2216,7 @@ footer h5 {
         width: 92%;
         padding: 16em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .lechon div {
@@ -2240,6 +2244,7 @@ footer h5 {
         width: 92%;
         padding: 16em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .sisig div {
@@ -2267,6 +2272,7 @@ footer h5 {
         width: 92%;
         padding: 16em 2em 2em 2em;
         flex-direction: column;
+        border-radius: 1.7rem;
     }
 
     .laing div {
@@ -2333,10 +2339,15 @@ footer h5 {
         height: 17px;
     }
 
+    .open .mobile-menu {
+        font-size: 0.9rem;
+        gap: 2.5em;
+    }
+
     /* CSS for home */
     .home-section {
-        padding-top: 24%;
-        padding-bottom: 14%;
+        padding-top: 18%;
+        padding-bottom: 12%;
     }
 
     .home-section .home-left-side h1 {
@@ -2351,6 +2362,134 @@ footer h5 {
         font-size: 0.8rem;
     }
 
+    /* CSS for about */
+    .about-section {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        flex-direction: column;
+    }
+
+    .about-section div h3 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .about-left-side {
+        width: fit-content;
+    }
+
+    .about-right-side {
+        width: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about-section .about-left-side img {
+        width: 100%;
+    }
+
+    .about-section .about-right-side img {
+        width: 100%;
+        object-fit: cover; 
+        display: flex;
+        margin-left: 0%;
+        margin-top: -5em;
+    }
+
+    .about-section .about-right-side p {
+        margin-top: 2em;
+    }
+
+    /* Food section */
+    .food-section {
+        margin-left: 2.3em;
+        margin-right: 2.3em;
+        margin-bottom: 3em;
+    }
+
+    /* Adobo */
+    .adobo {
+        width: 92%;
+        padding: 16em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .adobo img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 92%;
+        padding: 16em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .sinigang img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 92%;
+        padding: 16em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .dinakdakan img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 92%;
+        padding: 16em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .lechon img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 92%;
+        padding: 15em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .sisig img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Laing */
+    .laing {
+        width: 92%;
+        padding: 16em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .laing img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
 
     /* CSS for Footer */
     footer {
@@ -2391,6 +2530,100 @@ footer h5 {
     .pinoy-eats-logo {
         width: 100px;
         height: 15px;
+    }
+
+    /* CSS for about */
+    .about-section .about-right-side img {
+        width: 100%;
+        object-fit: cover; 
+        display: flex;
+        margin-left: 0%;
+        margin-top: -4em;
+    }
+
+    /* Food section */
+    /* Adobo */
+    .adobo {
+        width: 92%;
+        padding: 12em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .adobo img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Sinigang */
+    .sinigang {
+        width: 92%;
+        padding: 12em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .sinigang img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Dinakdakan */
+    .dinakdakan {
+        width: 92%;
+        padding: 12em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .dinakdakan img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Lechon */
+    .lechon {
+        width: 92%;
+        padding: 13em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .lechon img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Sisig */
+    .sisig {
+        width: 92%;
+        padding: 12em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .sisig img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
+    }
+
+    /* Laing */
+    .laing {
+        width: 92%;
+        padding: 12em 1.5em 1.5em 1.5em;
+        flex-direction: column;
+        border-radius: 1.5em;
+    }
+
+    .laing img {
+        width: 55%;
+        top: 4%;
+        left: 25%;
     }
 
     /* CSS for Footer */
