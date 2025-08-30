@@ -38,5 +38,4 @@ Through trial and error, I learned how to use media queries and flexible layouts
 ## What’s Next  
 - Add more Filipino dishes with images  
 - Add a search or filter option for recipes  
-- Let users save their favorite dishes  
-- Add a contact form for feedback and suggestions  
+- Let users save their favorite dishes
