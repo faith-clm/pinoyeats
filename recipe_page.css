@@ -976,6 +976,12 @@
         width: 54%;
     }
 
+    .recipes-adobo .ingredients-lists {
+        position: absolute;
+        left: 6.5em;
+        top: 10em;
+    }
+
     /* Sinigang */
     .recipes-sinigang img {
         width: 54%;
@@ -986,9 +992,21 @@
         width: 54%;
     }
 
+    .recipes-dinakdakan .ingredients-lists {
+        position: absolute;
+        left: 6.5em;
+        top: 10em;
+    }
+
     /* Lechon */
     .recipes-lechon img {
         width: 54%;
+    }
+
+    .recipes-lechon .ingredients-lists {
+        left: 8em;
+        right: 7.5em;
+        top: 10em;
     }
 
     /* Sisig */
@@ -996,9 +1014,22 @@
         width: 55%;
     }
 
+    .recipes-sisig .ingredients-lists {
+        position: absolute;
+        left: 8em;
+        top: 10em;
+    }
+
     /* Laing */
     .recipes-laing img {
         width: 57%;
+    }
+
+    .recipes-laing .ingredients-lists {
+        position: absolute;
+        left: 8em;
+        right: 8em;
+        top: 10em;
     }
 }
 
