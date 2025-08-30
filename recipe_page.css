@@ -933,6 +933,50 @@
         width: 52%;
         top: 20%;
     }
+
+    /* Recipes section */
+    /* Adobo */
+    .recipes-adobo .ingredients-lists {
+        position: absolute;
+        left: 11em;
+        top: 10em;
+    }
+
+    /* Sinigang */
+    .recipes-sinigang .ingredients-lists {
+        left: 10em;
+        right: 11em;
+        top: 10em;
+    }
+
+    /* Dinakdakan */
+    .recipes-dinakdakan .ingredients-lists {
+        position: absolute;
+        left: 11.5em;
+        top: 10em;
+    }
+
+    /* Lechon */
+    .recipes-lechon .ingredients-lists {
+        left: 12.5em;
+        right: 12.5em;
+        top: 10em;
+    }
+
+    /* Sisig */
+    .recipes-sisig .ingredients-lists {
+        position: absolute;
+        left: 12.5em;
+        top: 10em;
+    }
+
+    /* Laing */
+    .recipes-laing .ingredients-lists {
+        position: absolute;
+        left: 13em;
+        right: 13em;
+        top: 10em;
+    }
 }
 
 /* Smaller devices (Medium phones, 450px and below) */
@@ -1060,6 +1104,11 @@
         width: 59%;
     }
 
+    .recipes-adobo .ingredients-lists {
+        left: 3em;
+        top: 7em;
+    }
+
     /* Sinigang */
     .recipes-sinigang {
         padding: 1.5em 1.5em 1em 1.5em;
@@ -1067,6 +1116,12 @@
 
     .recipes-sinigang img {
         width: 59%;
+    }
+
+    .recipes-sinigang .ingredients-lists {
+        left: 4em;
+        right: 4em;
+        top: 7em;
     }
 
     /* Dinakdakan */
@@ -1078,6 +1133,12 @@
         width: 59%;
     }
 
+    .recipes-dinakdakan .ingredients-lists {
+        left: 4em;
+        right: 4em;
+        top: 7em;
+    }
+
     /* Lechon */
     .recipes-lechon {
         padding: 1.5em 1.5em 1em 1.5em;
@@ -1085,6 +1146,12 @@
 
     .recipes-lechon img {
         width: 59%;
+    }
+
+    .recipes-lechon .ingredients-lists {
+        left: 4em;
+        right: 4em;
+        top: 7em;
     }
 
     /* Sisig */
@@ -1096,6 +1163,12 @@
         width: 59%;
     }
 
+    .recipes-sisig .ingredients-lists {
+        left: 5em;
+        right: 4em;
+        top: 7em;
+    }
+
     /* Laing */
     .recipes-laing {
         padding: 1.5em 1.5em 1em 1.5em;
@@ -1104,4 +1177,11 @@
     .recipes-laing img {
         width: 63%;
     }
+
+    .recipes-laing .ingredients-lists {
+        left: 4em;
+        right: 4em;
+        top: 7em;
+    }
+
 }
